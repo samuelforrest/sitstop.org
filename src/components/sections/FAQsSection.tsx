@@ -56,17 +56,7 @@ export function FAQsSection() {
             </p>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-4">
-          <AccordionTrigger className="text-sm md:text-xl cursor-pointer">
-            Does the chair have to be in a particular part of my premises?
-          </AccordionTrigger>
-          <AccordionContent className="flex flex-col gap-4 text-balance text-sm md:text-xl leading-loose">
-            <p>
-              No, anywhere in the public area that is convenient to you, and
-              accessible to the user.
-            </p>
-          </AccordionContent>
-        </AccordionItem>
+
         <AccordionItem value="item-5">
           <AccordionTrigger className="text-sm md:text-xl cursor-pointer">
             What do I do if someone abuses our hospitality by behaving
@@ -94,15 +84,7 @@ export function FAQsSection() {
             </p>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-7">
-          <AccordionTrigger className="text-sm md:text-xl cursor-pointer">
-            As a business providing a seat as part of the SIT STOP campaign do
-            we get paid?
-          </AccordionTrigger>
-          <AccordionContent className="flex flex-col gap-4 text-balance text-sm md:text-xl leading-loose">
-            <p>No. The campaign is entirely voluntary throughout.</p>
-          </AccordionContent>
-        </AccordionItem>
+
         <AccordionItem value="item-8">
           <AccordionTrigger className="text-sm md:text-xl cursor-pointer">
             I know of a business which provides seating but they are not SIT
@@ -124,29 +106,13 @@ export function FAQsSection() {
           </AccordionContent>
         </AccordionItem>
 
-        <AccordionItem value="item-10">
-          <AccordionTrigger className="text-sm md:text-xl cursor-pointer">
-            Do I have to pay anything because I participate in SIT STOP?
-          </AccordionTrigger>
-          <AccordionContent className="flex flex-col gap-4 text-balance text-sm md:text-xl leading-loose">
-            <p>
-              No. We are a voluntary body. We are funded through donations which
-              cover our costs of operation. All our team give their time without
-              payment.
-            </p>
-          </AccordionContent>
-        </AccordionItem>
         <AccordionItem value="item-11">
           <AccordionTrigger className="text-sm md:text-xl cursor-pointer">
             If I want to make a donation in support of SIT STOP what should I
             do?
           </AccordionTrigger>
           <AccordionContent className="flex flex-col gap-4 text-balance text-sm md:text-xl leading-loose">
-            <p>
-              Cheques payable to <b>&apos;SIT STOP&apos;</b> will be very
-              gratefully received. They can be mailed to us at the address on
-              the contacts page.
-            </p>
+            <p>Please contact us using the email address below.</p>
           </AccordionContent>
         </AccordionItem>
       </Accordion>
