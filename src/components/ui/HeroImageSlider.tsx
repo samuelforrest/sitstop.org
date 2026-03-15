@@ -5,23 +5,26 @@ export const ImageAutoSlider = () => {
     {
       image_url: "carousel/carousel1.webp",
       location: "Squires Garden Centre",
-      location_url: "",
     },
     {
       image_url: "carousel/carousel2.webp",
       location: "Kanset Pharmacy",
-      location_url: "",
     },
     {
       image_url: "carousel/carousel3.webp",
       location: "Teddington Stables",
-      location_url: "",
     },
-
     {
       image_url: "carousel/carousel7.webp",
       location: "Barnes Summer Fair",
-      location_url: "",
+    },
+    {
+      image_url: "carousel/carousel8.webp",
+      location: "Ham Pharmacare",
+    },
+    {
+      image_url: "carousel/carousel9.webp",
+      location: "John D Wood (Estate Agents)",
     },
   ];
 
