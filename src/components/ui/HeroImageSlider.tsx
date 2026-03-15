@@ -17,20 +17,10 @@ export const ImageAutoSlider = () => {
       location: "Teddington Stables",
       location_url: "",
     },
-    {
-      image_url: "carousel/carousel4.webp",
-      location: "Barnes Summer Fair",
-      location_url: "",
-    },
+
     {
       image_url: "carousel/carousel7.webp",
       location: "Barnes Summer Fair",
-      location_url: "",
-    },
-
-    {
-      image_url: "carousel/carousel6.webp",
-      location: "SIT STOP Team",
       location_url: "",
     },
   ];

@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 export function AboutSection() {
   return (
     <section id="about" className="w-full mb-20 md:mb-30">
@@ -33,18 +32,6 @@ export function AboutSection() {
         <p>
           Check out our infographic below showing the varity of people who use{" "}
           <b>SIT STOP</b>.
-        </p>
-      </div>
-
-      <div className="flex flex-col items-start space-y-4">
-        <img
-          src="/infographic.webp"
-          alt="SIT STOP infographic"
-          className="w-full max-w-xl h-auto rounded-lg shadow-xl"
-          loading="lazy"
-        />
-        <p className="text-sm md:text-base text-gray-600 italic">
-          SIT STOP makes town centres more accessible to all{" "}
         </p>
       </div>
     </section>

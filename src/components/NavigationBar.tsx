@@ -57,9 +57,22 @@ export function NavigationBar() {
                     className={navigationMenuTriggerStyle()}
                   >
                     <Link href="/">
-                      <span className="flex items-center gap-2">
+                      <span className="flex items-center gap-2 font-bold">
                         <House className="w-4 h-4" />
                         Home
+                      </span>
+                    </Link>
+                  </NavigationMenuLink>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <NavigationMenuLink
+                    asChild
+                    className={navigationMenuTriggerStyle()}
+                  >
+                    <Link href="/locations">
+                      <span className="flex items-center gap-2 font-bold">
+                        <MapPin className="w-4 h-4" />
+                        Locations
                       </span>
                     </Link>
                   </NavigationMenuLink>
@@ -73,19 +86,6 @@ export function NavigationBar() {
                   </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <NavigationMenuLink
-                    asChild
-                    className={navigationMenuTriggerStyle()}
-                  >
-                    <Link href="/locations">
-                      <span className="flex items-center gap-2">
-                        <MapPin className="w-4 h-4" />
-                        Locations
-                      </span>
-                    </Link>
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     <Link href="/#logo" className="flex items-center gap-2">
                       <HiOutlineSparkles className="w-4 h-4" />
@@ -93,19 +93,7 @@ export function NavigationBar() {
                     </Link>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuLink
-                    asChild
-                    className={navigationMenuTriggerStyle()}
-                  >
-                    <Link href="/news">
-                      <span className="flex items-center gap-2">
-                        <Newspaper className="w-4 h-4" />
-                        News
-                      </span>
-                    </Link>
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
+
                 <NavigationMenuItem>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     <Link href="/#join" className="flex items-center gap-2">

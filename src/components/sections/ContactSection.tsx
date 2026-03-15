@@ -1,4 +1,5 @@
-import { Mail, PhoneCall } from "lucide-react";
+import { Mail } from "lucide-react";
+import { SlSocialFacebook } from "react-icons/sl";
 
 export function ContactSection() {
   return (
@@ -16,23 +17,23 @@ export function ContactSection() {
             <span className="font-bold">Email</span>
           </div>
           <a
-            href="mailto:richmond@sitstop.co.uk"
+            href="mailto:"
             className="text-blue-600 hover:underline text-base md:text-lg leading-loose"
           >
-            richmond@sitstop.co.uk
+            to be confirmed
           </a>
         </div>
 
         <div className="flex flex-col items-center md:items-start space-y-4">
           <div className="flex items-center gap-3 text-lg md:text-xl">
-            <PhoneCall className="w-6 h-6" />
-            <span className="font-bold">Mobile</span>
+            <SlSocialFacebook className="w-6 h-6" />
+            <span className="font-bold">Facebook</span>
           </div>
           <a
             href="tel:+447789438246"
             className="text-blue-600 hover:underline text-base md:text-lg leading-loose"
           >
-            (+44) 7789 438246
+            www.facebook.com/groups/SITSTOP/
           </a>
         </div>
       </div>

@@ -36,8 +36,8 @@ export function HistorySection() {
             Starbucks
           </a>
           , the idea took shape and grew. In Spring 2007 the project - then
-          focused around specially designed chairs - was showcased around
-          London.
+          focused around specially designed chairs - was showcased in the civic
+          centre in Twickenham.
         </p>
         <p>
           The scheme was launched in Twickenham with the support of{" "}
@@ -53,7 +53,7 @@ export function HistorySection() {
           issues were identified by the participating businesses.
         </p>
         <p>
-          We continue to expand the number of participating organizations - not
+          We continue to expand the number of participating organisations - not
           only in the Borough of Richmond upon Thames but also beyond. For
           example, the{" "}
           <a
