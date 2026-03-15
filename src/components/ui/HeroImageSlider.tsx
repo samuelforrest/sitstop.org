@@ -15,15 +15,15 @@ export const ImageAutoSlider = () => {
       location: "Teddington Stables",
     },
     {
-      image_url: "carousel/carousel7.webp",
+      image_url: "carousel/carousel4.webp",
       location: "Barnes Summer Fair",
     },
     {
-      image_url: "carousel/carousel8.webp",
+      image_url: "carousel/carousel5.webp",
       location: "Ham Pharmacare",
     },
     {
-      image_url: "carousel/carousel9.webp",
+      image_url: "carousel/carousel6.webp",
       location: "John D Wood (Estate Agents)",
     },
   ];
@@ -44,7 +44,7 @@ export const ImageAutoSlider = () => {
         }
 
         .infinite-scroll {
-          animation: scroll-right 35s linear infinite;
+          animation: scroll-right 45s linear infinite;
         }
 
         .image-item {

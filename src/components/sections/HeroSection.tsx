@@ -20,7 +20,7 @@ export function HeroSection() {
 
       <div className="items-center justify-center flex gap-3 md:gap-5">
         <Link href="/locations">
-          <Button className="hover:cursor-pointer md:h-11 md:w-40">
+          <Button className="hover:cursor-pointer md:h-11 md:w-40 bg-yellow-300 text-black">
             View all locations
           </Button>
         </Link>
