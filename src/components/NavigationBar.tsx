@@ -40,11 +40,7 @@ export function NavigationBar() {
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center py-4">
           <Link href="/" className="flex items-center gap-3 font-bold text-xl">
-            <img
-              src="/sitstop-logo.jpg"
-              alt="SIT STOP logo"
-              className="h-10 rounded-full"
-            />
+            <img src="/sitstop-logo.jpg" alt="SIT STOP logo" className="h-10" />
             <span className="hidden sm:inline">SIT STOP</span>
           </Link>
 
