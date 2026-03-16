@@ -17,10 +17,10 @@ export function ContactSection() {
             <span className="font-bold">Email</span>
           </div>
           <a
-            href="mailto:sitstop@gmail.com"
+            href="mailto:sitstop20@gmail.com"
             className="text-blue-600 hover:underline text-base md:text-lg leading-loose"
           >
-            sitstop@gmail.com
+            sitstop20@gmail.com
           </a>
         </div>
 
