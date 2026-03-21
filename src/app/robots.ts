@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://sitstopcouk.vercel.app",
+    sitemap: "https://sitstop.org/sitemap.xml",
   };
 }
