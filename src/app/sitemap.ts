@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://sitstop.co.uk";
+  const baseUrl = "https://sitstop.org";
 
   const staticPages: MetadataRoute.Sitemap = [
     {
