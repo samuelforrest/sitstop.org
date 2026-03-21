@@ -14,13 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/locations`,
       lastModified: new Date(),
       changeFrequency: "weekly",
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/news`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.1,
+      priority: 0.8,
     },
   ];
 
