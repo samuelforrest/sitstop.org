@@ -30,7 +30,7 @@ export function ContactSection() {
             <span className="font-bold">Facebook</span>
           </div>
           <a
-            href="tel:+447789438246"
+            href="https://www.facebook.com/groups/SITSTOP/"
             className="text-blue-600 hover:underline text-base md:text-lg leading-loose"
           >
             www.facebook.com/groups/SITSTOP/
