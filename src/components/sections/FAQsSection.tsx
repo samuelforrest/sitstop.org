@@ -13,10 +13,9 @@ export function FAQsSection() {
       </h2>
       <hr className="w-full mb-8 border-t-2"></hr>
       <Accordion
-        type="single"
-        collapsible
+        type="multiple"
         className="w-full mt-10"
-        defaultValue="item-1"
+        defaultValue={["item-1", "item-2", "item-3", "item-5", "item-6", "item-8", "item-11"]}
       >
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-sm md:text-xl cursor-pointer">

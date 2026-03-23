@@ -910,6 +910,16 @@ export const locationsRaw: LocationRaw[] = [
     phone: "020 3417 4947",
     mapUrl: "https://maps.app.goo.gl/7Gr8ingBXu3ASrGG9",
   },
+  {
+    no: "1001",
+    id: "beechwood-bench",
+    name: "Beechwood Avenue Bench",
+    address: "1 Beechwood Ave, TW9 4DE",
+    town: "Kew",
+    email: "",
+    phone: "",
+    mapUrl: "https://maps.app.goo.gl/BhzctMY7N4oXj8NW7",
+  },
 ];
 
 // Removed Locations Data Array, move entries
