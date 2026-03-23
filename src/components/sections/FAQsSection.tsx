@@ -15,7 +15,15 @@ export function FAQsSection() {
       <Accordion
         type="multiple"
         className="w-full mt-10"
-        defaultValue={["item-1", "item-2", "item-3", "item-5", "item-6", "item-8", "item-11"]}
+        defaultValue={[
+          "item-1",
+          "item-2",
+          "item-3",
+          "item-5",
+          "item-6",
+          "item-8",
+          "item-11",
+        ]}
       >
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-sm md:text-xl cursor-pointer">
