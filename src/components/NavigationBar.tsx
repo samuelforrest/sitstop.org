@@ -74,7 +74,10 @@ export function NavigationBar() {
                   </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  <NavigationMenuLink
+                    asChild
+                    className={navigationMenuTriggerStyle()}
+                  >
                     <Link href="/#about" className="flex items-center gap-2">
                       <BsPeople className="w-4 h-4" />
                       About Us
@@ -82,7 +85,10 @@ export function NavigationBar() {
                   </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  <NavigationMenuLink
+                    asChild
+                    className={navigationMenuTriggerStyle()}
+                  >
                     <Link href="/#logo" className="flex items-center gap-2">
                       <HiOutlineSparkles className="w-4 h-4" />
                       Logo
@@ -91,7 +97,10 @@ export function NavigationBar() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  <NavigationMenuLink
+                    asChild
+                    className={navigationMenuTriggerStyle()}
+                  >
                     <Link href="/#join" className="flex items-center gap-2">
                       <Handshake className="w-4 h-4" />
                       Join
@@ -99,7 +108,10 @@ export function NavigationBar() {
                   </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  <NavigationMenuLink
+                    asChild
+                    className={navigationMenuTriggerStyle()}
+                  >
                     <Link href="/#faqs" className="flex items-center gap-2">
                       <FiHelpCircle className="w-4 h-4" />
                       FAQs
@@ -107,7 +119,10 @@ export function NavigationBar() {
                   </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  <NavigationMenuLink
+                    asChild
+                    className={navigationMenuTriggerStyle()}
+                  >
                     <Link href="/#contact" className="flex items-center gap-2">
                       <Mail className="w-4 h-4" />
                       Contact
