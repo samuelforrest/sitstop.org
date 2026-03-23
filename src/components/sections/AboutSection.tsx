@@ -29,10 +29,6 @@ export function AboutSection() {
           We continue to develop the <b>SIT STOP</b> campaign as we learn from
           our experience and listen to the input from supporting organisations.
         </p>
-        <p>
-          Check out our infographic below showing the varity of people who use{" "}
-          <b>SIT STOP</b>.
-        </p>
       </div>
     </section>
   );

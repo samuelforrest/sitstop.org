@@ -60,6 +60,7 @@ export function NavigationBar() {
                     </Link>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
+
                 <NavigationMenuItem>
                   <NavigationMenuLink
                     asChild
@@ -73,25 +74,31 @@ export function NavigationBar() {
                     </Link>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
+
                 <NavigationMenuItem>
                   <NavigationMenuLink
                     asChild
                     className={navigationMenuTriggerStyle()}
                   >
                     <Link href="/#about" className="flex items-center gap-2">
-                      <BsPeople className="w-4 h-4" />
-                      About Us
+                      <span className="flex items-center gap-2">
+                        <BsPeople className="w-4 h-4" />
+                        About Us
+                      </span>
                     </Link>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
+
                 <NavigationMenuItem>
                   <NavigationMenuLink
                     asChild
                     className={navigationMenuTriggerStyle()}
                   >
                     <Link href="/#logo" className="flex items-center gap-2">
-                      <HiOutlineSparkles className="w-4 h-4" />
-                      Logo
+                      <span className="flex items-center gap-2">
+                        <HiOutlineSparkles className="w-4 h-4" />
+                        Logo
+                      </span>
                     </Link>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
@@ -102,31 +109,42 @@ export function NavigationBar() {
                     className={navigationMenuTriggerStyle()}
                   >
                     <Link href="/#join" className="flex items-center gap-2">
-                      <Handshake className="w-4 h-4" />
-                      Join
+                      <span className="flex items-center gap-2">
+                        <Handshake className="w-4 h-4" />
+                        Join
+                      </span>
                     </Link>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
+
                 <NavigationMenuItem>
                   <NavigationMenuLink
                     asChild
                     className={navigationMenuTriggerStyle()}
                   >
-                    <Link href="/#faqs" className="flex items-center gap-2">
-                      <FiHelpCircle className="w-4 h-4" />
-                      FAQs
-                    </Link>
+                    <span className="flex items-center gap-2">
+                      <Link href="/#faqs" className="flex items-center gap-2">
+                        <FiHelpCircle className="w-4 h-4" />
+                        FAQs
+                      </Link>
+                    </span>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
+
                 <NavigationMenuItem>
                   <NavigationMenuLink
                     asChild
                     className={navigationMenuTriggerStyle()}
                   >
-                    <Link href="/#contact" className="flex items-center gap-2">
-                      <Mail className="w-4 h-4" />
-                      Contact
-                    </Link>
+                    <span className="flex items-center gap-2">
+                      <Link
+                        href="/#contact"
+                        className="flex items-center gap-2"
+                      >
+                        <Mail className="w-4 h-4" />
+                        Contact
+                      </Link>
+                    </span>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
               </NavigationMenuList>
@@ -163,7 +181,17 @@ export function NavigationBar() {
                   className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 rounded-lg transition-colors"
                 >
                   <House className="w-5 h-5" />
-                  <span className="font-medium">Home</span>
+                  <span className="font-bold">Home</span>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/locations"
+                  onClick={closeMenu}
+                  className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 rounded-lg transition-colors"
+                >
+                  <MapPin className="w-5 h-5" />
+                  <span className="font-bold">Locations</span>
                 </Link>
               </li>
               <li>
@@ -178,16 +206,6 @@ export function NavigationBar() {
               </li>
               <li>
                 <Link
-                  href="/locations"
-                  onClick={closeMenu}
-                  className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 rounded-lg transition-colors"
-                >
-                  <MapPin className="w-5 h-5" />
-                  <span className="font-medium">Locations</span>
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/#logo"
                   onClick={closeMenu}
                   className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 rounded-lg transition-colors"
@@ -196,16 +214,7 @@ export function NavigationBar() {
                   <span className="font-medium">Logo</span>
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/news"
-                  onClick={closeMenu}
-                  className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 rounded-lg transition-colors"
-                >
-                  <Newspaper className="w-5 h-5" />
-                  <span className="font-medium">News</span>
-                </Link>
-              </li>
+
               <li>
                 <Link
                   href="/#join"
